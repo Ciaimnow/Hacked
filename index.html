@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hacked Pirate</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      color: #00FF00;
+      background: #000;
+      background-image: url('background.jpg'); /* Local image in the same directory */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 10vw; /* Fill the screen with text based on screen width */
+      font-weight: bold;
+      text-shadow: 0 0 15px #FF0000, 0 0 20px #00FF00, 0 0 25px #0000FF;
+      margin: 0;
+    }
+  </style>
+  <script>
+    // Example of a forced redirect after a delay
+    window.onload = function() {
+      setTimeout(function() {
+        window.location.href = "https://piratenation-game.onrender.com"; // Redirect URL
+      }, 500); // Redirect after 5 seconds
+    };
+  </script>
+</head>
+<body>
+  <h1>Hacked Pirate</h1>
+</body>
+</html>
